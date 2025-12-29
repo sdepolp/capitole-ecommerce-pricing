@@ -6,7 +6,7 @@ spring:
     url: jdbc:h2:mem:pricingdb
     driver-class-name: org.h2.Driver
     username: sa
-    password:
+    password: 12345678
 
   h2:
     console:
