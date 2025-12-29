@@ -1,14 +1,13 @@
-package com.capitole.ecommerce.pricing.application.port.in;
+package com.capitole.ecommerce.pricing_service.application.port.in;
 
-import com.capitole.ecommerce.pricing.domain.model.Price;
-import com.capitole.ecommerce.pricing.domain.model.PriceQuery;
-import com.capitole.ecommerce.pricing.domain.exception.PriceNotFoundException;
 
+import com.capitole.ecommerce.pricing_service.domain.model.Price;
+import com.capitole.ecommerce.pricing_service.domain.model.PriceQuery;
+import com.capitole.ecommerce.pricing_service.domain.exception.PriceNotFoundException;
 /**
  * Input port for retrieving applicable prices.
  * This interface defines the use case for finding the correct price
  * based on application date, product, and brand.
- *
  * Following hexagonal architecture, this port is implemented by the application service
  * and called by the infrastructure adapters (e.g., REST controllers).
  */

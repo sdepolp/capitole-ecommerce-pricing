@@ -1,6 +1,6 @@
-package com.capitole.ecommerce.pricing.domain.exception;
+package com.capitole.ecommerce.pricing_service.domain.exception;
 
-import com.capitole.ecommerce.pricing.domain.model.PriceQuery;
+import com.capitole.ecommerce.pricing_service.domain.model.PriceQuery;
 
 /**
  * Exception thrown when no applicable price is found for the given criteria.
