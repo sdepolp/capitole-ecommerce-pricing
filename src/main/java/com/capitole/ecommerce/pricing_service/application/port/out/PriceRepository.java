@@ -1,7 +1,7 @@
-package com.capitole.ecommerce.pricing.application.port.out;
+package com.capitole.ecommerce.pricing_service.application.port.out;
 
-import com.capitole.ecommerce.pricing.domain.model.Price;
-import com.capitole.ecommerce.pricing.domain.model.PriceQuery;
+import com.capitole.ecommerce.pricing_service.domain.model.Price;
+import com.capitole.ecommerce.pricing_service.domain.model.PriceQuery;
 
 import java.util.Optional;
 

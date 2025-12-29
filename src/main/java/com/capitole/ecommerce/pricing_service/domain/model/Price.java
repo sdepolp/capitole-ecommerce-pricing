@@ -1,4 +1,4 @@
-package com.capitole.ecommerce.pricing.domain.model;
+package com.capitole.ecommerce.pricing_service.domain.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
