@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: pricing-service-test
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: false
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+
+  flyway:
+    enabled: true
+    clean-disabled: false
+    locations: classpath:db/migration
+
+server:
+  port: 0  # Random port for tests
+
+logging:
+  level:
+    root: WARN
+    com.capitole.ecommerce.pricing: INFO
+    org.springframework.web: WARN
+    org.hibernate.SQL: WARN
+    org.flywaydb: WARN
