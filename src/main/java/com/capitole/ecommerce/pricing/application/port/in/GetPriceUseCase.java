@@ -1,9 +1,9 @@
 package com.capitole.ecommerce.pricing.application.port.in;
 
 
+import com.capitole.ecommerce.pricing.domain.exception.PriceNotFoundException;
 import com.capitole.ecommerce.pricing.domain.model.Price;
 import com.capitole.ecommerce.pricing.domain.model.PriceQuery;
-import com.capitole.ecommerce.pricing.domain.exception.PriceNotFoundException;
 /**
  * Input port for retrieving applicable prices.
  * This interface defines the use case for finding the correct price

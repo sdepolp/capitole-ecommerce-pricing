@@ -1,9 +1,9 @@
 package com.capitole.ecommerce.pricing.application.service;
 
+import com.capitole.ecommerce.pricing.application.port.in.GetPriceUseCase;
 import com.capitole.ecommerce.pricing.application.port.out.PriceRepository;
 import com.capitole.ecommerce.pricing.domain.exception.PriceNotFoundException;
 import com.capitole.ecommerce.pricing.domain.model.Price;
-import com.capitole.ecommerce.pricing.application.port.in.GetPriceUseCase;
 import com.capitole.ecommerce.pricing.domain.model.PriceQuery;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
