@@ -46,3 +46,16 @@ logging:
     org.flywaydb: INFO
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
+
+  # SpringDoc OpenAPI Configuration
+  springdoc:
+    api-docs:
+      path: /api-docs
+    swagger-ui:
+      path: /swagger-ui.html
+      enabled: true
+      operations-sorter: method
+      tags-sorter: alpha
+      display-request-duration: true
+      doc-expansion: none
+    show-actuator: false

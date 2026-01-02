@@ -429,6 +429,36 @@ spring:
 ```
 
 ---
+### 📚 Interactive API Documentation (Swagger UI)
+
+The API is documented using OpenAPI 3.0 specification and can be explored interactively through Swagger UI.
+
+**Access Swagger UI:**
+```
+http://localhost:8080/swagger-ui.html
+```
+
+**OpenAPI JSON Specification:**
+```
+http://localhost:8080/api-docs
+```
+
+**Features:**
+- 🔍 Explore all available endpoints
+- 📝 View request/response schemas
+- ▶️ Try out API calls directly from the browser
+- 📋 See example requests and responses
+- 📊 View all data models and validations
+
+**Try it out:**
+1. Start the application: `mvn spring-boot:run`
+2. Open browser: http://localhost:8080/swagger-ui.html
+3. Expand the "Prices" section
+4. Click "Try it out"
+5. Fill in the parameters with test data
+6. Click "Execute" to see the response
+
+---
 
 ## Author
 
