@@ -98,7 +98,7 @@ This project follows **Hexagonal Architecture** (Ports and Adapters pattern), en
 1. **Clone the repository**
 ```bash
 git clone https://github.com/sdepolp/capitole-ecommerce-pricing.git
-cd pricing
+cd capitole-ecommerce-pricing
 ```
 
 2. **Build the project**
